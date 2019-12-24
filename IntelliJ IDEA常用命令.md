@@ -42,6 +42,9 @@ IDEA 风格 ctrl + alt +B     或者     Ctrl+Alt+鼠标左键
 查看类的继承关系          Ctrl + H  <br>
 打断点                    鼠标左键
 格式化代码                Ctrl + Alt + L
+代码上下移动              Ctrl + Shift + Up/Down
+最近打开的文件            Ctrl + E
+方法参数提示              Ctrl + P
 
 
 
