@@ -1,4 +1,10 @@
 ```
+linux下常用命令：
+1、rm -rf 删除文件夹及文件夹下的所有
+2、rm -f 删除文件夹 rm 删除文件
+```
+
+```
 unbuntu系统： 
 1、查看网卡信息和名称 ip a
 2、网卡配置文件  vi /etc/network/interface
@@ -20,6 +26,8 @@ CentOs系统：
 3、 docker run --name zookeeper --restart always -d zookeeper 
 4、 service docker status 查看状态
 5、 docker restart f57  重启服务，f57是服务的CONTAINER ID 前三位
+6、 docker rename <my_container> <my_new_container>  修改docker中服务的NAMES
+7、 docker update 8a4 --restart=always 总是自动重启服务 8a4是服务ID
 
 Docker下使用zookeeper镜像
 1.查询zookeeper
