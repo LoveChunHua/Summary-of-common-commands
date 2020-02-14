@@ -2,6 +2,7 @@
 linux下常用命令：
 1、rm -rf 删除文件夹及文件夹下的所有
 2、rm -f 删除文件夹 rm 删除文件
+3、df -h 查看磁盘使用量
 ```
 
 ```
@@ -9,7 +10,15 @@ unbuntu系统：
 1、查看网卡信息和名称 ip a
 2、网卡配置文件  vi /etc/network/interface
 ```
-
+```
+压力测试：
+打包项目分别在三个端口运行，使用Nginx负载均衡三个端口服务器
+C:\Users\sunkai\Desktop\locks>java -jar locks-test-8080.jar --server.port=8080
+C:\Users\sunkai\Desktop\locks>java -jar locks-test-8080.jar --server.port=8081
+C:\Users\sunkai\Desktop\locks>java -jar locks-test-8080.jar --server.port=8082
+用Apache进行多线程高并发下的压力测试
+D:\ApacheJemter\Apache24\bin>ab -n 10000 -c 500 http://192.168.184.129/incr 
+```
 ```
 CentOs系统：
 1、查看ip地址                 ifconfig -a //ens33网卡名称 -a可选     192.168.184.129
@@ -28,6 +37,9 @@ CentOs系统：
 5、 docker restart f57  重启服务，f57是服务的CONTAINER ID 前三位
 6、 docker rename <my_container> <my_new_container>  修改docker中服务的NAMES
 7、 docker update 8a4 --restart=always 总是自动重启服务 8a4是服务ID
+8、 systemctl restart docker 重启docker服务
+9、 docker logs es1|grep mb  在es1的日志中查找mb
+10、docker exec -it redis redis-cli 进入redis命令行
 
 Docker下使用zookeeper镜像
 1.查询zookeeper
@@ -64,4 +76,6 @@ docker restart zookeeper
 docker logs -f zookeeper
 11.使用zookeeper命令行客户端连接zookeeper
 docker exec -it 容器名称 /bin/bash
+12.查看当前所在目录
+pwd
 ```

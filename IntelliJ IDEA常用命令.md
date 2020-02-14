@@ -47,6 +47,8 @@ IDEA 风格 ctrl + alt +B     或者     Ctrl+Alt+鼠标左键
 打断点                    鼠标左键
 格式化代码                Ctrl + Alt + L
 代码上下移动              Ctrl + Shift + Up/Down
+代码左移				  Shift + Tab
+代码右移                  Tab
 最近打开的文件            Ctrl + E
 方法参数提示              Ctrl + P
 idea本身的配置            Ctrl + Shift + Alt + ?
@@ -61,6 +63,9 @@ find in path失灵          Ctrl + Alt + F
 看方法在哪里实现的        Alt + F7
 参数改变位置              Ctrl + F6
 切换大小写				  Ctrl + Shift + U
+try-Catch快捷键           Ctrl + T
+点进方法的实现            Ctrl + Alt 之后再点击
+
 
 
 
