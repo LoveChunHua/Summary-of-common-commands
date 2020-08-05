@@ -65,6 +65,7 @@ find in path失灵          Ctrl + Alt + F
 切换大小写				  Ctrl + Shift + U
 try-Catch快捷键           Ctrl + T
 点进方法的实现            Ctrl + Alt 之后再点击
+快速编辑一列              Alt + 鼠标左键下拉 然后输入内容
 
 
 
