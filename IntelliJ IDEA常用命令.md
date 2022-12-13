@@ -33,6 +33,7 @@ IDEA 风格 ctrl + alt +B     或者     Ctrl+Alt+鼠标左键
 ```
 浏览器无痕状态            Ctrl + Shift + N
 
+切换到上一个类            Ctrl + Tab
 右键各类文件              Git -> rollback可以回滚未提交之前的状态<br>
 自动补全左边              Ctrl + Alt + V <br>
 抽取参数                  Ctrl + Alt + P <br>
@@ -44,6 +45,7 @@ IDEA 风格 ctrl + alt +B     或者     Ctrl+Alt+鼠标左键
 搜索类中的方法            Ctrl + F12  然后再复制需要查找的方法<br>
 搜索任何东西              Shift + Shift  <br>
 查看类的继承关系          Ctrl + H  <br>
+查看类的所有结构          Ctrl + F12
 打断点                    鼠标左键
 格式化代码                Ctrl + Alt + L
 代码上下移动              Ctrl + Shift + Up/Down
